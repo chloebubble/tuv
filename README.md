@@ -14,7 +14,10 @@ A terminal UI for managing Python projects created with [uv](https://github.com/
 Requires Go 1.21+ and [uv](https://github.com/astral-sh/uv).
 
 ```bash
-go install github.com/chloebubble/tuv/cmd/tuv@latest
+git clone git@github.com:chloebubble/tuv.git
+cd tuv
+go mod download
+go install github.com/chloebubble/tuv
 ```
 
 ## Usage
