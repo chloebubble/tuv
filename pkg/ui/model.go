@@ -12,8 +12,8 @@ import (
 	"github.com/charmbracelet/bubbles/textinput"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/crung/tuv/pkg/config"
-	"github.com/crung/tuv/pkg/scanner"
+	"github.com/chloebubble/tuv/pkg/config"
+	"github.com/chloebubble/tuv/pkg/scanner"
 )
 
 // AppState represents the current state of the application
