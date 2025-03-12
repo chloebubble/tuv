@@ -1,4 +1,4 @@
-module github.com/chloebubble/tuv/cmd/tuv
+module github.com/chloebubble/tuv
 
 go 1.24.1
 
