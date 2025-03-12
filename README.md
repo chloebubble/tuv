@@ -1,6 +1,7 @@
-# TUV
+# tuv
 
-A terminal UI for managing Python projects created with [uv](https://github.com/astral-sh/uv). Create, view, and manage your Python projects with a simple interface.
+A terminal UI written in Go for managing Python projects created with [uv](https://github.com/astral-sh/uv). 
+Create, view, and manage your Python projects with a simple interface.
 
 ## Features
 
