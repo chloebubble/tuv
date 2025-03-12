@@ -680,7 +680,7 @@ func (m Model) viewProjectList() string {
 		loadingMsg := FancyBoxStyle.Render(fmt.Sprintf("%s %s", m.spinner.View(), m.loadingMsg))
 		b.WriteString(loadingMsg + "\n")
 	} else if len(m.projects) == 0 {
-		emptyMsg := FancyBoxStyle.Render("No uv projects found.\n\nPress 's' to rescan for projects or 'Esc' to go back to the main menu.")
+		emptyMsg := FancyBoxStyle.Render("No uv projects found.\n\nPress 'r' to rescan for projects or 'Esc' to go back to the main menu.")
 		b.WriteString(emptyMsg + "\n")
 	} else {
 		// Add project count with highlight
@@ -712,7 +712,7 @@ func (m Model) viewProjectList() string {
 		b.WriteString(ErrorStyle.Render("Error: "+m.error) + "\n")
 	}
 
-	help := HelpStyle.Render("↑/↓: Navigate • Enter: Select • s: Rescan • Esc: Back • q: Quit")
+	help := HelpStyle.Render("↑/↓: Navigate • Enter: Select • r: Rescan • Esc: Back • q: Quit")
 	b.WriteString("\n" + help)
 
 	return BaseStyle.Render(b.String())
