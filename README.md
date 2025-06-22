@@ -10,6 +10,12 @@ Create, view, and manage your Python projects with a simple interface.
 - View project details (size, Python version, creation date)
 - Delete projects with confirmation
 
+## Screenshots
+<img width="414" alt="Screenshot 2025-06-22 at 19 29 43" src="https://github.com/user-attachments/assets/0b2caf31-0b09-49d8-8155-ac8d8ece315b" />
+<img width="461" alt="Screenshot 2025-06-22 at 19 30 15" src="https://github.com/user-attachments/assets/d566b2ab-628c-4f5b-b308-1efa8d3909b5" />
+<img width="501" alt="Screenshot 2025-06-22 at 19 30 27" src="https://github.com/user-attachments/assets/68b48b0e-0243-4d0a-a431-ab995c010a88" />
+<img width="497" alt="Screenshot 2025-06-22 at 19 30 23" src="https://github.com/user-attachments/assets/e9c2a1f4-abec-4acb-9dc0-2ea48217f229" />
+
 ## Installation
 
 Requires Go 1.21+ and [uv](https://github.com/astral-sh/uv).
